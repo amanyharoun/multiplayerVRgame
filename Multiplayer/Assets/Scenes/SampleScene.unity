@@ -582,6 +582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166043480}
   - component: {fileID: 166043479}
+  - component: {fileID: 166043481}
   m_Layer: 0
   m_Name: XR Interaction Manager
   m_TagString: Untagged
@@ -619,6 +620,20 @@ Transform:
   - {fileID: 1856269164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &166043481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166043478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &346529683 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd97882f8fb0ff046be0b55e85723919,
@@ -3954,7 +3969,7 @@ Transform:
   m_GameObject: {fileID: 1856269161}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38694826, y: -0, z: -0, w: 0.92210144}
-  m_LocalPosition: {x: 0, y: 0.12967163, z: 0.878}
+  m_LocalPosition: {x: 0, y: 0.154, z: 0.903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
